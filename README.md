@@ -1,4 +1,4 @@
-# Angular slack
+# Angular slack [![Build Status](https://travis-ci.org/polem/angular-slack.svg?branch=master)](https://travis-ci.org/polem/angular-slack)
 
 ## Installation
 
