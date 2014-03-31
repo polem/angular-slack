@@ -1,0 +1,25 @@
+{
+  "name": "angular-slack",
+  "version": "0.0.0",
+  "authors": [
+    "Paul-Emile MINY <paulemile.miny@gmail.com>"
+  ],
+  "keywords": [
+    "angular",
+    "slack",
+    "service"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular-mocks": "~1.2.15",
+    "angular": "~1.2.15"
+  }
+}
