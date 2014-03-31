@@ -23,9 +23,13 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('jshint', function() {
-  gulp.src('*.js')
-    .pipe(plugins.jshint())
-    .pipe(plugins.jshint.reporter('jshint-stylish'));
+  gulp.src([
+    'gulpfile.js',
+    'slack.js',
+    '*.spec.js'
+  ])
+  .pipe(plugins.jshint())
+  .pipe(plugins.jshint.reporter('jshint-stylish'));
 });
 
 gulp.task('jasmine', function() {
