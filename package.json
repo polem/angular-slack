@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "slack.min.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "gulp test"
   },
   "author": "Paul-Emile MINY",
   "license": "MIT",
