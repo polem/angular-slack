@@ -1,6 +1,6 @@
 {
   "name": "angular-slack",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "authors": [
     "Paul-Emile MINY <paulemile.miny@gmail.com>"
   ],
@@ -18,8 +18,10 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
-    "angular-mocks": "~1.2.15",
+  "dependencies": {
     "angular": "~1.2.15"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.15"
   }
 }
