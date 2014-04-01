@@ -2,7 +2,7 @@
 
 ## Installation
 
-`npm install --save angular-slack`
+`bower install --save angular-slack`
 
 add `angular-slack` module to your app depedencies
 
