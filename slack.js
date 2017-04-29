@@ -1,12 +1,12 @@
 'use strict';
 
 angular.module('angular-slack', [])
-.factory('Slack', ['$http', function ($http) {
+.factory('Slack', ['$http', $http => {
 
-  var Slack = function() {
+  var Slack = () => {
   };
 
-  Slack.prototype.notify = function (team, token, message) {
+  Slack.prototype.notify = (team, token, message) => {
 
     var config = {
       'params' : {

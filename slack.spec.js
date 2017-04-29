@@ -1,21 +1,20 @@
 /* global describe, it, beforeEach, inject */
 'use strict';
 
-describe('slack', function () {
-
+describe('slack', () => {
   beforeEach(module('angular-slack'));
 
-  var Slack,
-    $httpBackend;
+  var Slack;
+  var $httpBackend;
 
-  beforeEach(inject(function ($injector) {
+  beforeEach(inject($injector => {
     Slack =  $injector.get('Slack');
     $httpBackend = $injector.get('$httpBackend');
   }));
 
-  describe('#notify', function () {
+  describe('#notify', () => {
 
-    it('should call http service with correct parameters', function () {
+    it('should call http service with correct parameters', () => {
 
       var message = {
         'text':'Hello world',
@@ -34,5 +33,4 @@ describe('slack', function () {
       $httpBackend.flush();
     });
   });
-
 });
